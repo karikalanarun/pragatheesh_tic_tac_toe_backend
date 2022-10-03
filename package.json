@@ -1,0 +1,23 @@
+{
+  "name": "pragatheesh_tic_tac_toe_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karikalanarun/pragatheesh_tic_tac_toe_backend.git"
+  },
+  "author": "Arun Karikalan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karikalanarun/pragatheesh_tic_tac_toe_backend/issues"
+  },
+  "homepage": "https://github.com/karikalanarun/pragatheesh_tic_tac_toe_backend#readme",
+  "dependencies": {
+    "socket.io": "^4.5.2"
+  }
+}
