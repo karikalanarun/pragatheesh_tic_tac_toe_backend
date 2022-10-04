@@ -1,7 +1,10 @@
 import { Server } from "socket.io";
 
 const io = new Server(process.env.PORT, {
-  // options
+  cors: {
+    origin: "*",
+    allowedHeaders: "*",
+  },
 });
 
 io.on("connection", (socket) => {
